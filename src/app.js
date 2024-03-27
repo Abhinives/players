@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const bodyparser = require("body-parser");
 
 
-const PlayerRoute = require("./routes/Player");
+const PlayerRoute = require("../routes/Player");
 
 const app = express();
 
