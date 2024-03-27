@@ -19,7 +19,7 @@ const PORT = 3000;
 app.use('/api', PlayerRoute);
 const connectToDb = async()=>{
     try{
-        await mongoose.connect('mongodb://127.0.0.1:27017/player')
+        await mongoose.connect('mongodb+srv://Abhi:Q8DkOMTH8bx1NRAC@cluster0.unnuqmn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
         console.log("Connected to DB");
     }
     catch(err){
